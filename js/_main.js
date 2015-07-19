@@ -91,7 +91,7 @@
 	// Build HTML for Nav
 		$('<nav/>', {
 		    'id' : 'slideNav'
-		}).append($('<ul><li class="slideNavPrev one" id="1"><a class="" href="#" title="">Split Collective</a></li><li class="slideNavPrev two" id="2"><a class="" href="#" title="">Centennials</a></li><li class="slideNavPrev three" id="3"><a class="" href="#" title="">The Solution</a></li><li class="slideNavPrev four" id="4"><a class="" href="#" title="">The Future</a></li><li class="slideNavPrev four" id="5"><a class="" href="#" title="">Last Slide</a></li></ul>')).appendTo('body').delay(1200).fadeIn(duration);
+		}).append($('<ul><li class="slideNavPrev one" id="1"><a class="" href="#" title=""></a></li><li class="slideNavPrev two" id="2"><a class="" href="#" title=""></a></li><li class="slideNavPrev three" id="3"><a class="" href="#" title=""></a></li><li class="slideNavPrev four" id="4"><a class="" href="#" title=""></a></li><li class="slideNavPrev four" id="5"><a class="" href="#" title=""></a></li><li class="slideNavPrev six" id="6"><a class="" href="#" title=""></a></li><li class="slideNavPrev seven" id="7"><a class="" href="#" title=""></a></li></ul>')).appendTo('body').delay(1200).fadeIn(duration);
 		
 
 		// Navigation highligting

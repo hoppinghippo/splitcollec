@@ -21,7 +21,12 @@ body {
  * Customize the background color to match your design.
  */
 
+.footer,footer{
+    height:500px;
+    background-color: #BCF171;
+    position: absolute; 
 
+}
 
 
 @font-face {
@@ -112,13 +117,15 @@ body, html {
 	height: 100%;
 	min-height: 100%;
 	background-color: #000000;
+    font-family: raleway;
 }
 body {
 	
 }
 h1{
-    color:black !important;
-    margin-bottom:20px;
+    color: #BCF171 !important;
+    margin:15px ;
+    font-size: 96px !important;
 }
 .no-js {
 	padding-top: 106px;
@@ -134,6 +141,9 @@ section {
 	min-width: 960px;
 	opacity: 0;
 }
+
+
+
 .loaded section,
 .no-js section {
 	opacity: 1;
@@ -156,7 +166,7 @@ section {
 	width: 100%;
 }
 /* Slide 1 */
-/*#slide-1{  background-color: black;}*/
+#slide-1{  background-color: #2F2933;}
 
 #slide-1>.right{
     background-image:url('../svg/splitcollective-white-right.svg');
@@ -182,25 +192,45 @@ section {
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bcg_slide-1.jpg'); background-color: white}
+#slide-2 .bcg { background-color: #2F2933;}
 
-/* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/current-future.png'); background-color: white;}
-.infoGraphic {background-image:url('../img/current-future.png');}
-#slide-3 .bcg2 {background-image: none; background-color: white; position: absolute; top: 0; left: 0;}
+/* Slide 2 */
+#slide-3 .bcg { background-color: #2F2933;}
 
 /* Slide 4 */
+#slide-6 .bcg  { background-color: #2F2933;background-image:url('../img/split-infographic-1.png');}
+.infoGraphic-1 {}
+#slide-4 .bcg { background-color: #2F2933;}
+
+/* Slide 6*/
+#slide-6 .bcg { background-color: #2F2933;}
+
+
 .curtainContainer {width: 100%; height: 100%; position: relative;}
 .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
-#slide-4 .bcg {background-image:url('../img/bcg_slide-1.jpg'); background-color: white}
+.front>p{
+    color:white !important;
+    text-align: center;
 
+}
+.back>p{
+    color:white !important;
+    text-align: center;
+}
+.back>h2{
+    color:white !important;
+}
+#slide-5{
+    background-color: #2F2933;
+}
+/*
 #slide-5 {position: relative;}
 #slide-5 .bcg {background-image:url('../img/bcg_slide-5.jpg');}
 #slide-5 .bcg2 {background-image:url('../img/bcg_slide-5b.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
 #slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2;}
-
+*/
 .footer,footer{
     background-color: white; 
     margin-top: 50px;
@@ -221,19 +251,19 @@ section {
 }
 
 
-#slide-2 p{
-    color:black;
+#slide-4 p{
+    color:white;
 }
-#slide-2 h2{
-    color:black;
-}
-
 #slide-4 h2{
     color:white;
 }
 
+#slide-2 h2{
+    color:white;
+}
 
-#slide-4 p{
+
+#slide-2 p{
     color:white;
 }
 
@@ -241,6 +271,9 @@ section {
     color:white;
     font-size: 1.5em;
     text-align: left;
+}
+.card-grid-2>.front>p{
+    font-size: 2em;
 }
 
 #slide-5 p{
@@ -250,6 +283,85 @@ section {
     color:white;
 }
 
+.card-grid{
+      width: 200px;
+      height: 200px;
+      margin: 50px;
+      display: inline-block;
+}
+
+.card-grid-2{
+      width: 350px;
+      height: 350px;
+      margin: 20px;
+      display: inline-block;
+}
+
+.svgHold-1{
+      background: url("../svg/bulb-white.svg") no-repeat center center;
+      width: 150px;
+      height: 150px;
+}
+.svgHold-2{
+      background: url("../svg/building-white.svg") no-repeat center center;
+     width: 150px;
+      height: 150px;
+}
+.svgHold-3{
+      background: url("../svg/pie2-white.svg") no-repeat center center;
+       width: 150px;
+      height: 150px;
+}
+.svgHold-4{
+      background: url("../svg/money2-white.svg") no-repeat center center;
+     width: 150px;
+      height: 150px;
+}
+.svgHold-5{
+      background: url("../svg/goals-white.svg") no-repeat center center;
+ width: 150px;
+      height: 150px;
+}
+.svgHold-6{
+      background: url("../svg/earth-white.svg") no-repeat center center;
+      height:110px;
+      width:110px;
+}
+.svgHold-7{
+      background: url("../svg/thumbsup-white.svg") no-repeat center center;
+      height:110px;
+      width:110px;
+}
+.svgHold-8{
+      background: url("../svg/tv-white.svg") no-repeat center center;
+      height:110px;
+      width:110px;
+}
+.svgHold-9{
+      background: url("../svg/sun-white.svg") no-repeat center center;
+      height:110px;
+      width:110px;
+}
+.svgHold-10{
+      background: url("../svg/share-white.svg") no-repeat center center;
+    width: 150px;
+      height: 150px;
+}
+.svgHold-11{
+      background: url("../svg/dial-white.svg") no-repeat center center;
+      height:110px;
+      width:110px;
+}
+.svgHold-12{
+      background: url("../svg/bag-white.svg") no-repeat center center;
+      height:110px;
+      width:110px;
+}
+
+.imgHold{
+     height:350px;
+      width:350px;
+}
 
 .hsContent {
 	max-width: 450px;
@@ -297,30 +409,26 @@ section {
 #slideNav ul {
 	list-style: none;
 	color: white;
-    width:100px;
+    width:20px;
 	font-size: 13px;
 	text-align: center;
     overflow: visible;
 }
 #slideNav li {
-	width: 100px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
+    border-radius: 10px;
+    margin: 10px;
 	line-height: 50px;
-	background-color: skyblue;
 	margin-bottom: 1px;
     right:10%;
+    background-color: #BCF171;
+
 }
-#slideNav>ul>.one{
-    background-color: black;
-}
-#slideNav>ul>.two{
-    background-color: orange;
-}
-#slideNav>ul>.three{
-    background-color: aqua;
-}
-#slideNav>ul>.four{
-    background-color: violet;
+#slideNav li:hover {
+  
+    background-color: #2F2933;
+
 }
 
 
