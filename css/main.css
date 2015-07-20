@@ -198,7 +198,7 @@ section {
 #slide-3 .bcg { background-color: #2F2933;}
 
 /* Slide 4 */
-#slide-6 .bcg  { background-color: #2F2933;background-image:url('../img/split-infographic-1.png');}
+#slide-5 .bcg  { background-color: #2F2933;background-image:url('../img/split-infographic-1.png');}
 .infoGraphic-1 {}
 #slide-4 .bcg { background-color: #2F2933;}
 
@@ -211,8 +211,7 @@ section {
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
 .front>p{
-    color:white !important;
-    text-align: center;
+    color:white;
 
 }
 .back>p{
@@ -272,9 +271,6 @@ section {
     font-size: 1.5em;
     text-align: left;
 }
-.card-grid-2>.front>p{
-    font-size: 2em;
-}
 
 #slide-5 p{
     color:white;
@@ -289,14 +285,6 @@ section {
       margin: 50px;
       display: inline-block;
 }
-
-.card-grid-2{
-      width: 350px;
-      height: 350px;
-      margin: 20px;
-      display: inline-block;
-}
-
 .svgHold-1{
       background: url("../svg/bulb-white.svg") no-repeat center center;
       width: 150px;
@@ -356,11 +344,6 @@ section {
       background: url("../svg/bag-white.svg") no-repeat center center;
       height:110px;
       width:110px;
-}
-
-.imgHold{
-     height:350px;
-      width:350px;
 }
 
 .hsContent {
